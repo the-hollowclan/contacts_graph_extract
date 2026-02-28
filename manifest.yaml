@@ -1,8 +1,6 @@
-name: contacts_graph_infer
+name: contacts_graph_extract
 version: 0.1.0
 description: >
-  Infers likely contact relationships by analyzing
-  co-occurrence of phone numbers in operator-provided
-  leaked datasets.
+  A support module for contacts_graph_infer. This module extracts and prepare weights for contacts_graph_infer
 entity_types:
   - phone
