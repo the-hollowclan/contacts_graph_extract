@@ -1,0 +1,8 @@
+name: contacts_graph_infer
+version: 0.1.0
+description: >
+  Infers likely contact relationships by analyzing
+  co-occurrence of phone numbers in operator-provided
+  leaked datasets.
+entity_types:
+  - phone

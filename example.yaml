@@ -1,0 +1,13 @@
+modules:
+  - name: contacts_graph_extract
+    config:
+      leak: "py-ml/contacts_region.csv"
+
+  - name: contacts_graph_infer
+    input: "$contacts_graph_extract"
+    config:
+      model: "./model.onnx"
+      subject:
+        - "+12025550505"
+      relation:
+        - "+447922334455"
